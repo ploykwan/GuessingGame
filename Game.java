@@ -1,4 +1,4 @@
-package oop2;
+
 import java.util.Random;
 /**
  * Game of guessing a secret number between 1 to 20.

@@ -1,4 +1,4 @@
-package oop2;
+
 import java.util.Scanner;
 
 public class GameConsole{
@@ -12,7 +12,7 @@ public class GameConsole{
 		Scanner scan = new Scanner(System.in);
 		System.out.println("Guessing Game");
 		System.out.println("Your guess?");
-		int num , cnt = 0;
+		int num;
 		do{
 		System.out.println(game.getHint());
 		num = scan.nextInt();
