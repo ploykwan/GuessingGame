@@ -1,7 +1,15 @@
+package guessinggame;
+/**
+ * Main class
+ * 
+ * @author Kwankaew Uttama
+ *
+ */
 public class Main {
 	
 	/**
 	 * create objects and start the game
+	 * 
 	 */
 	public static void main(String[] args){
 		Game game = new Game(20);
